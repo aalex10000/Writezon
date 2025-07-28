@@ -1,120 +1,41 @@
-<!DOCTYPE html><html lang="it">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Writezon - Il portale italiano per lettori e autori. Scopri romanzi, manuali e prodotti consigliati." />
+  <meta name="keywords" content="libri, romanzi, scrittori italiani, manuali, Amazon, lettura, autore del mese, blog letterario" />
+  <meta name="author" content="Alessandro Allegro" />
   <title>Writezon - La tua Libreria Autore</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fefefe;
-      color: #222;
-    }
-    header {
-      background: linear-gradient(to right, #1d3557, #457b9d);
-      color: white;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1rem;
-      color: #d4d4d4;
-    }
-    .hero {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto 2rem;
-    }
-    .hero a {
-      text-decoration: none;
-      background-color: #e63946;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h3 {
-      color: #1d3557;
-      margin-bottom: 1rem;
-    }
-    .book {
-      margin-bottom: 1.5rem;
-    }
-    .book a {
-      color: #0077cc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .contact, .blog {
-      background-color: #f9f9f9;
-      padding: 2rem;
-      border-radius: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #f1f1f1;
-      color: #555;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Il tuo punto di riferimento per ogni libro.</h1>
-    <p>Your go-to destination for every book.</p>
-  </header>  <section class="hero">
-    <h2>Benvenuto su Writezon</h2>
-    <p>Scopri romanzi, manuali e opere uniche create da Alessandro Allegro. Trova il libro perfetto per te o per un regalo speciale, direttamente su Amazon.</p>
-    <a href="#catalogo">Sfoglia i libri</a>
-  </section>  <section id="catalogo">
-    <h3>📚 Catalogo Libri</h3>
-    <div class="book">
-      <p><strong>Il Perfetto Magazziniere</strong> – Manuale completo per lavorare in magazzino con metodo.</p>
-      <a href="https://amzn.eu/d/fw5fKfP" target="_blank">Acquista su Amazon</a>
-    </div>
-    <div class="book">
-      <p><strong>L'Orologio di Atlantide</strong> – Romanzo storico-fantastico con mistero e avventura.</p>
-      <a href="https://www.amazon.it/dp/B0XYZEXAMPLE2" target="_blank">Acquista su Amazon</a>
-    </div>
-    <!-- Aggiungi altri libri qui -->
-  </section>  <section id="autore">
-    <h3>✍️ Chi sono</h3>
-    <p>Mi chiamo <strong>Alessandro Allegro</strong> e scrivo per passione e professione. Creo manuali, romanzi, racconti e contenuti formativi per aiutare le persone a crescere, imparare o evadere con una buona storia.</p>
-  </section>  <section id="contatti">
-    <h3>📬 Contatti e Social</h3>
-    <div class="contact">
-      <p>Email: <a href="mailto:info@writezon.it">info@writezon.it</a></p>
-      <p>Instagram: <a href="https://www.instagram.com/writezon" target="_blank">@writezon</a></p>
-      <p>Facebook: <a href="https://www.facebook.com/writezon" target="_blank">Writezon</a></p>
-    </div>
-  </section>  <section id="blog">
-    <h3>📝 Dal mio Blog</h3>
-    <div class="blog">
-      <p><strong>Come nasce un libro?</strong> – Dietro le quinte del processo creativo, tra ispirazione e disciplina.</p>
-      <p><strong>Scrivere per vendere</strong> – Strategie pratiche per trasformare le parole in valore.</p>
-      <!-- Altri articoli in arrivo -->
-    </div>
-  </section>  <footer>
-    &copy; 2025 Writezon. Tutti i diritti riservati. Autore: Alessandro Allegro.
+    <h1>Writezon</h1>
+    <p>Dove la fantasia incontra il lettore</p>
+  </header>
+
+  <section class="hero">
+    <h2>Libri, romanzi, fumetti e consigli di lettura</h2>
+    <p>Scopri le novità, l'autore del mese e il libro più letto</p>
+    <a href="#scopri">Scopri di più</a>
+  </section>
+
+  <section class="books" id="scopri">
+    <h3>In evidenza</h3>
+    <div class="book">📘 Manuale del Magazziniere</div>
+    <div class="book">📕 Il Naufrago Geniale</div>
+    <div class="book">📗 Zombimbi - Fumetto manga</div>
+  </section>
+
+  <section class="blog">
+    <h3>Dal blog letterario</h3>
+    <p><a href="#">5 trucchi per scrivere il tuo primo romanzo</a></p>
+    <p><a href="#">Come autopubblicare su Amazon</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Writezon.it - Tutti i diritti riservati</p>
   </footer>
 </body>
-  </html>
+</html>
