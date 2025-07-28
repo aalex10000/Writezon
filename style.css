@@ -1,67 +1,81 @@
-
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  background-color: #fffdf6;
-  color: #222;
+  font-family: 'Georgia', serif;
+  background-color: #fcf9f6;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 header {
-  background: linear-gradient(to right, #8bc34a, #cddc39);
-  color: white;
+  background: linear-gradient(to right, #c08457, #ebd9b4);
+  color: #fff;
   text-align: center;
-  padding: 2.5rem 1rem;
+  padding: 3rem 1rem;
 }
 header h1 {
+  font-size: 3rem;
   margin: 0;
-  font-size: 2.5rem;
+  font-weight: bold;
 }
 header p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  color: #eef6d8;
-}
-.hero {
-  text-align: center;
-  padding: 3rem 1.5rem;
-}
-.hero h2 {
-  font-size: 2rem;
-}
-.hero p {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
-.hero a {
+nav {
+  background-color: #5a3b1f;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav li {
+  margin: 0.5rem 1.5rem;
+}
+nav a {
+  color: #fffbe6;
   text-decoration: none;
-  background-color: #689f38;
-  color: white;
-  padding: 0.8rem 1.2rem;
   font-weight: bold;
-  border-radius: 5px;
+  font-size: 1.1rem;
 }
-.books, .blog {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
+nav a:hover {
+  text-decoration: underline;
 }
-h3 {
-  color: #689f38;
+main section {
+  margin-bottom: 3rem;
 }
-.book {
-  background: #f0fbe7;
+h2 {
+  font-size: 2rem;
+  color: #5a3b1f;
+  border-bottom: 2px solid #e6c49a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.box {
+  background-color: #fffaf4;
+  padding: 1.5rem;
   margin-bottom: 1rem;
+  border-left: 4px solid #c08457;
+  border-radius: 4px;
+}
+article {
+  background-color: #f5f0eb;
   padding: 1rem;
-  border-left: 4px solid #8bc34a;
-}
-.blog a {
-  color: #33691e;
-  text-decoration: none;
-  font-weight: bold;
+  margin-bottom: 1rem;
+  border-left: 3px solid #95734e;
 }
 footer {
-  background: #c5e1a5;
   text-align: center;
-  padding: 1rem;
+  background-color: #eee;
+  padding: 2rem 1rem;
+  color: #555;
   font-size: 0.9rem;
-  color: #2e7d32;
 }
